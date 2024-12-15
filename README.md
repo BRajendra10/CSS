@@ -7,3 +7,7 @@
 <h1> Hyundai Cars </h1>
 
 <img src="https://github.com/BRajendra10/CSS/blob/4268e594c26067d6d0f904730b1742236540629a/Hyundai%20Cars.png">
+
+<h1>  Inner Peace </h1>
+
+<a href="https://inner-peacee.netlify.app/"> <img src="https://github.com/BRajendra10/CSS/blob/c9d54ce6acc18d7058f9bcb80a86fb09a6d6eba3/Inner%20Peace.png"> </a>
