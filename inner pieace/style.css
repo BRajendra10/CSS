@@ -1,0 +1,652 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navigation{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    height: 150px;
+    text-align: center;
+    padding: 33px 0;
+}
+.logo h1{
+    font-size: 44px;
+    color: orange;
+}
+.logo p{
+    color: gray;
+}
+.menu{
+    width: 60%;
+    height: 150px;
+}
+.menu i{
+    font-size: 30px;
+    line-height: 100px;
+    padding: 0 20px;
+    color: orange;
+    display: none;
+}
+.menu ul{
+    line-height: 150px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+.menu ul li a:hover{
+    color: orange;
+}
+.heroContainer{
+    width: 100%;
+    display: flex;
+}
+.hero{
+    width: 50%;
+    height: 880px;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.contentContainer{
+    width: 50%;
+    height: 880px;
+    position: relative;
+}
+.content{
+    width: 440px;
+    height: 750px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.content .box1 h2{
+    margin: 10px 0;
+    text-align: center;
+}
+.imgContainer{
+    width: 440px;
+    height: 440px;
+}
+.imgContainer img{
+    width: 100%;
+}
+.box2{
+    margin: 25px;
+}
+.content .box2 span{
+    font-size: 25px;
+}
+.content .box2 p{
+    font-size: 16px;
+    padding: 10px 0;
+    font-weight: 300;
+}
+.box2 button{
+    position: relative;
+    top: 87px;
+    left: 130px;
+    border: 1px solid black;
+    padding: 15px 40px;
+    color: gray;
+}
+.content .box2 span:hover{
+    color: orange;
+}
+.content .box2 p:hover{
+    color: orange;
+}
+.content .box2 button:hover{
+    color: orange;
+}
+.postContainer{
+    width: 100%;
+    margin: 30px 0;
+}
+.posts{
+    width: 55%;
+    height: auto;
+    margin: auto;
+}
+.posts h1{
+    font-size: 50px;
+    font-weight: lighter;
+    color: gray;
+    padding: 30px 0;
+}
+.posts .box{
+    width: 100%;
+    height: 400px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.posts .box .image{
+    width: 50%;
+    height: 400px;
+    background-color: aliceblue;
+}
+.posts .box .Content{
+    position: relative;
+    width: 50%;
+    height: 400px;
+    padding: 40px;
+    color: gray;
+}
+.box .image img{
+    width: 100%;
+    height: 100%;
+}
+.posts .box .Content span{
+    font-size: 14px;
+}
+.posts .box .Content #p1{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.posts .Content #Comment{
+    border-bottom: 1px solid gray;
+    padding-right: 70%;
+    position: absolute;
+    bottom: 5%;
+}
+.posts .box .Content #p2:hover{
+    color: orange;
+}
+.posts .box .Content #p1:hover{
+    color: orange;
+}
+.aboutContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutContainer .quet{
+    width: 50%;
+    height: 700px;
+    position: relative;
+}
+.aboutContainer .quet .quetBox{
+    width: 60%;
+    height: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: gray;
+}
+.aboutContainer .quet .quetBox blockquote{
+    font-size: 60px;
+    margin: 10px 0;
+}
+.aboutContainer .img1{
+    width: 50%;
+    height: 700px;
+}
+.aboutContainer .img1 .img{
+    width: 100%;
+    height: 100%;
+    background-image: url('Images/img-6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.aboutContainer .img2{
+    width: 50%;
+    height: 700px;
+    background-color: #FAF2EF;
+    position: relative;
+}
+.aboutContainer .img2 .img2Box{
+    width: 420px;
+    height: 540px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.aboutContainer .img2 .img2Box img{
+    width: 100%;
+    height: 100%;
+}
+.aboutContainer .about{
+    width: 50%;
+    height: 700px;
+    position: relative;
+}
+.aboutContainer .about .aboutBox{
+    width: 45%;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.aboutContainer .about .aboutBox h1{
+    font-size: 44px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.aboutContainer .about .aboutBox span{
+    font-size: 18px;
+    font-weight: lighter;
+    color: gray;
+}
+.aboutContainer .about .aboutBox p{
+    font-size: 16px;
+    margin: 20px 0;
+    color: gray;
+}
+.aboutContainer .about .aboutBox button{
+    border: 1px solid gray;
+    color: gray;
+    padding: 15px 40px;
+    position: absolute;
+    bottom: 5%;
+}
+.galleryContainer{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.galleryContainer h1{
+    text-align: center;
+    padding: 50px 0;
+    font-size: 55px;
+    font-weight: lighter;
+    color: gray;
+}
+.galleryContainer .gallery{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galleryContainer .gallery .imgBoxs{
+    width: 330px;
+    height: 330px;
+    margin: 10px 0;
+    position: relative;
+}
+.contact{
+    width: 100%;
+    height: auto;
+}
+.contact h1{
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 20px 0;
+}
+.contact p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.contact .contactForm{
+    width: 45%;
+    height: 380px;
+    margin: 50px auto;
+    position: relative;
+}
+.contact .contactForm .box{
+    width: 48%;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin: 0 4px;
+}
+.contactForm .box input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.contactForm input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.contactForm input#check{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.contactForm p#para{
+    float: left;
+    margin: 20px 0 0 10px;
+}
+.contactForm button{
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    padding: 10px 50px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #414141;
+    display: flex;
+    justify-content: space-between;
+}
+.footerInfo{
+    width: 40%;
+    height: 600px;
+    position: relative;
+}
+.footerInfo .box{
+    width: 280px;
+    height: 200px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    line-height: 30px;
+    color: white;
+}
+.footerInfo .box .icon{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 20px;
+}
+.footerInfo .box .icon i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.footer .footerContact{
+    width: 60%;
+    height: 600px;
+    position: relative;
+}
+.footerContact .contact{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #FAF2EF;
+}
+.footerContact .contact h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.footerContact .contact span{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.footerContact .contact .box{
+    width: 100%;
+    height: 450px;
+    padding: 20px 0;
+}
+.footerContact .contact .box label{
+    display: block;
+    margin: 10px 0;
+    color: burlywood;
+}
+.footerContact .contact .box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #414141;
+    border-bottom: 1px solid white;
+}
+.footerContact .contact .box textarea{
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    background-color: #414141;
+    border-bottom: 1px solid white;
+}
+.footerContact .contact .box button{
+    padding: 10px 50px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #414141;
+    border: 1px solid white;
+    color: white;
+    float: right;
+}
+.blogContainer{
+    width: 100%;
+}
+.blog{
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+}
+.blog .blogPosts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.blog .asistnav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog .asistnav button{
+    padding: 10px 30px;
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+}
+.blog .boxs{
+    width: 48%;
+    height: 660px;
+    margin: 20px 0;
+    background-color: lightcoral;
+    position: relative;
+}
+.blog .boxs .box-1{
+    width: 100%;
+    height: 330px;
+    background-color: lavender;
+}
+.blog .boxs .box-2{
+    width: 100%;
+    height: 330px;
+    background-color: lavender;
+    padding: 30px;
+    position: relative;
+}
+.boxs .box-1 img{
+    width: 100%;
+    height: 100%;
+}
+.box-2 .account{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+}
+.account .profile{
+    width: 40px;
+    height: 40px;
+    background-color: darkcyan;
+    border-radius: 50%;
+}
+.account .profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.account span{
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.account .icon{
+    width: 20px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    float: right;
+    position: absolute;
+    right: 0%;
+}
+.box-2 p#para-1{
+    font-size: 28px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.box-2 p#para-1:hover{
+    color: orange;
+}
+.box-2 p#para-2:hover{
+    color: orange;
+}
+.boxs .box-2 span#Comment{
+    position: absolute;
+    bottom: 10%;
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-top: 1px solid black;
+    line-height: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.aboutContainer .imgContainer{
+    width: 50%;
+    height: 800px;
+    background-color: #FAF2EF;
+    position: relative;
+}
+.aboutContainer .imgContainer .img{
+    width: 50%;
+    height: 600px;
+    background: url('Images/img-18.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.aboutContainer .about{
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+.aboutContainer .about .box{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.about .box h1{
+    font-size: 50px;
+    font-weight: lighter;
+}
+.about .box p#para{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.about .box p#paragraph{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+.Resource{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.Resource .ResourceInfo{
+    width: 50%;
+    height: 800px;
+    background-color: #FAF2EF;
+    position: relative;
+}
+.Resource .Resources{
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+.ResourceInfo .box{
+    width: 55%;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.ResourceInfo .box  h1{
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.ResourceInfo .box span{
+    font-size: 20px;
+}
+.ResourceInfo .box p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.Resources .box{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.Resources .box h2{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.Resources .box ul{
+    padding: 10px 0;
+}
+.Resources .box ul li{
+    font-size: 15px;
+    padding: 5px 0;
+}

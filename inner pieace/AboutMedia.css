@@ -1,0 +1,156 @@
+@media (max-width: 1500px){
+    .aboutContainer .imgContainer .img{
+        width: 70%;
+    }
+    .aboutContainer .about .box{
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px){
+    .navigation{
+        height: 150px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo h1{
+        font-size: 35px;
+    }
+    .aboutContainer .imgContainer .img{
+        width: 80%;
+        height: 80%;
+    }
+    .aboutContainer .imgContainer{
+        height: 880px;
+    }
+    .aboutContainer .about{
+        height: 880px;
+    }
+    .aboutContainer .about .box{
+        width: 85%;
+    }
+}
+
+@media (max-width: 768px){
+    .navigation{
+        height: 100px;
+    }
+    .logo{
+        width: 35%;
+        height: 100px;
+        padding: 20px 0;
+    }
+    .logo h1 {
+        font-size: 25px;
+    }
+    .logo p{
+        font-size: 14px;
+    }
+    .menu{
+        width: 65%;
+    }
+    .menu ul{
+        line-height: 100px;
+    }
+    .menu ul li a{
+        font-size: 14px;
+    }
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutContainer .imgContainer{
+        width: 100%;
+    }
+    .aboutContainer .imgContainer .img{
+        width: 70%;
+        height: 80%;
+    }
+    .aboutContainer .about{
+        width: 100%;
+    }
+    .aboutContainer .about .box{
+        width: 80%;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footerInfo{
+        width: 100%;
+        height: 400px;
+    }
+    .footerInfo .box{
+        position: absolute;
+        top: 50%;
+    }
+    .footer .footerContact{
+        width: 100%;
+    }
+    .footerContact .contact{
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px){
+    .navigation{
+        height: 100px;
+    }
+    .logo{
+        width: 80%;
+        height: 100px;
+        padding: 20px 0;
+    }
+    .menu{
+        width: 20%;
+        height: 100px;
+    }
+    .menu i{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+    }
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutContainer .imgContainer{
+        width: 100%;
+    }
+    .aboutContainer .imgContainer .img{
+        width: 80%;
+        height: 80%;
+    }
+    .aboutContainer .about{
+        width: 100%;
+        height: 1100px;
+    }
+    .aboutContainer .about .box{
+        width: 90%;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footerInfo{
+        width: 100%;
+        height: 400px;
+    }
+    .footerInfo .box{
+        position: absolute;
+        top: 50%;
+    }
+    .footer .footerContact{
+        width: 100%;
+    }
+    .footerContact .contact{
+        width: 90%;
+    }
+}

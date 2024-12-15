@@ -1,0 +1,505 @@
+@media (max-width: 1500px){
+    .heroContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hero{
+        width: 60%;
+    }
+    .contentContainer{
+        width: 40%;
+    }
+    .content{
+        width: 400px;
+    }
+    .imgContainer{
+        width: 400px;
+        height: 400px;
+    }
+    .posts .box{
+        height: 330px;
+    }
+    .posts{
+        width: 60%;
+    }
+    .posts .box .image{
+        height: 330px;
+    }
+    .posts .box .Content{
+        height: 330px;
+        padding: 20px;
+    }
+    .posts .box .Content #p1{
+        font-size: 20px;
+    }
+    .posts .box .Content #p2{
+        font-size: 18px;
+    }
+    .posts .box .Content #Comment{
+        position: absolute;
+        bottom: 5%;
+    }
+    .aboutContainer .quet{
+        width: 50%;
+        height: 700px;
+    }
+    .aboutContainer .quet .quetBox{
+        width: 60%;
+        height: 60%;
+    } 
+    .aboutContainer .quet .quetBox blockquote{
+        font-size: 50px;
+    }
+    .aboutContainer .img1{
+        width: 50%;
+        height: 700px;
+    }
+    .aboutContainer .img1 img{
+        height: 100%;
+    }
+    .aboutContainer .img2{
+        width: 50%;
+        height: 700px;
+    }
+    .aboutContainer .about{
+        width: 50%;
+        height: 700px;
+    }
+    .aboutContainer .about .aboutBox{
+        width: 60%;
+        height: 440px;
+    }
+    .galleryContainer .gallery{
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .contact .contactForm{
+        width: 77%;
+    }
+}
+
+@media (max-width: 1024px){
+    .navigation{
+        height: 150px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo h1{
+        font-size: 35px;
+    }
+    .heroContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        width: 100%;
+    }
+    .contentContainer{
+        width: 100%;
+    }
+    .content{
+        width: 400px;
+    }
+    .content .box1 .imgContainer{
+        height: 400px;
+    }
+    .posts{
+        width: 90%;
+    }
+    .posts .box{
+        height: 330px;
+    }
+    .posts h1{
+        font-size: 40px;
+    }
+    .posts .box .image{
+        height: 330px;
+    }
+    .posts .box .Content{
+        height: 330px;
+    }
+    .posts .box .Content #p1{
+        font-size: 25px;
+    }
+    .posts .box .Content #p2{
+        font-size: 18px;
+    }
+    .aboutContainer .quet .quetBox {
+        width: 80%;
+        height: 80%;
+    }
+    .aboutContainer .quet{
+        width: 100%;
+        height: 600px;
+    }
+    .aboutContainer .quet .quetBox{
+        width: 70%;
+        height: 70%;
+    } 
+    .aboutContainer .quet .quetBox blockquote{
+        font-size: 60px;
+    }
+    .aboutContainer .img1{
+        width: 100%;
+        height: 600px;
+    }
+    .aboutContainer .img2{
+        width: 100%;
+        height: 600px;
+    }
+    .aboutContainer .img2 .img2Box{
+        width: 420px;
+        height: 540px;
+    }
+    .aboutContainer .about{
+        width: 100%;
+        height: 600px;
+    }
+    .aboutContainer .about .aboutBox{
+        width: 55%;
+        height: 400px;
+    }
+    .galleryContainer .gallery{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contact .contactForm{
+        width: 90%;
+        height: 500px;
+    }
+    .contact .contactForm .box{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .navigation{
+        height: 100px;
+    }
+    .logo{
+        width: 35%;
+        height: 100px;
+        padding: 20px 0;
+    }
+    .logo h1 {
+        font-size: 25px;
+    }
+    .logo p{
+        font-size: 14px;
+    }
+    .menu{
+        width: 65%;
+    }
+    .menu ul{
+        line-height: 100px;
+    }
+    .menu ul li a{
+        font-size: 14px;
+    }
+    .heroContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        width: 100%;
+        height: 711px;
+    }
+    .contentContainer{
+        width: 100%;
+    }
+    .content{
+        width: 440px;
+    }
+    .content h2{
+        padding: 15px 0;
+    }
+    .imgContainer{
+        width: 440px;
+        height: 440px;
+    }
+    .box2{
+        position: relative;
+        top: 40px;
+    }
+    .posts{
+        width: 90%;
+    }
+    .posts h1{
+        font-size: 35px;
+    }
+    .posts .box{
+        width: 100%;
+        height: 280px;
+    }
+    .posts .box .image{
+        height: 280px;
+    }
+    .posts .box .Content{
+        height: 280px;
+        padding: 30px;
+    }
+    .posts .Content #Comment{
+        padding-right: 50%;
+    }
+    .posts .box .Content #p1{
+        font-size: 18px;
+    }
+    .posts .box .Content #p2{
+        font-size: 14px;
+    }
+    .aboutContainer .quet{
+        width: 100%;
+        height: 500px;
+    }
+    .aboutContainer .quet .quetBox{
+        width: 80%;
+        height: 300px;
+    } 
+    .aboutContainer .quet .quetBox blockquote{
+        font-size: 50px;
+    }
+    .aboutContainer .img1{
+        width: 100%;
+        height: 500px;
+    }
+    .aboutContainer .img2{
+        width: 100%;
+        height: 500px;
+    }
+    .aboutContainer .img2 .img2Box{
+        width: 70%;
+        height: 500px;
+    }
+    .aboutContainer .about{
+        width: 100%;
+        height: 500px;
+    }
+    .aboutContainer .about .aboutBox{
+        width: 70%;
+        height: 400px;
+    }
+    .galleryContainer h1{
+        font-size: 50px;
+    }
+    .galleryContainer .gallery{
+        width: 80%;
+        justify-content: center;
+    }
+    .contact h1{
+        font-size: 45px;
+    }
+    .contact .contactForm{
+        width: 90%;
+        height: 500px;
+    }
+    .contact .contactForm .box{
+        float: none;
+        width: 100%;
+    }
+    .contactForm button{
+        position: absolute;
+        left: 40%;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footerInfo{
+        width: 100%;
+        height: 400px;
+    }
+    .footerInfo .box{
+        position: absolute;
+        top: 50%;
+    }
+    .footer .footerContact{
+        width: 100%;
+    }
+    .footerContact .contact{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .navigation{
+        height: 100px;
+    }
+    .logo{
+        width: 80%;
+        height: 100px;
+        padding: 20px 0;
+    }
+    .menu{
+        width: 20%;
+        height: 100px;
+    }
+    .menu i{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+    }
+    .heroContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        width: 100%;
+        height: 450px;
+        background-color: maroon;
+    }
+    .contentContainer{
+        width: 100%;
+        height: 800px;
+    }
+    .content{
+        width: 350px;
+        height: 700px;
+    }
+    .content .box1{
+        position: relative;
+    }
+    .content .box2{
+        margin: 20px;
+        position: absolute;
+        top: 60%;
+    }
+    .content .box2 span{
+        font-size: 20px;
+    }
+    .content .box2 p{
+        font-size: 14px;
+    }
+    .imgContainer{
+        width: 350px;
+        height: 35px;
+    }
+    .content .box2 button{
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    .posts{
+        width: 90%;
+    }
+    .posts h1{
+        font-size: 30px;
+    }
+    .posts .box{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .posts .box .image{
+        width: 100%;
+    }
+    .posts .box .Content{
+        width: 100%;
+        height: 270px;
+    }
+    .posts .Content #Comment{
+        padding-right: 65%;
+        position: relative;
+        bottom: 5%;
+    }
+    .aboutContainer .quet{
+        width: 100%;
+        height: 350px;
+    }
+    .aboutContainer .quet .quetBox{
+        width: 90%;
+        height: 90%;
+    }
+    .aboutContainer .quet .quetBox blockquote{
+        font-size: 40px;
+    }
+    .aboutContainer .img1{
+        width: 100%;
+        height: 350px;
+    }
+    .aboutContainer .img2{
+        width: 100%;
+        height: 400px;
+    }
+    .aboutContainer .img2 .img2Box{
+        width: 70%;
+        height: 400px;
+    }
+    .aboutContainer .about{
+        width: 100%;
+        height: 400px;
+    }
+    .aboutContainer .about .aboutBox{
+        width: 80%;
+        height: 380px;
+    }
+    .aboutContainer .about .aboutBox h1{
+        font-size: 32px;
+    }
+    .aboutContainer .about .aboutBox p{
+        font-size: 14px;
+    }
+    .aboutContainer .about .aboutBox button{
+        position: absolute;
+        bottom: 0%;
+    }
+    .galleryContainer h1{
+        font-size: 40px;
+    }
+    .galleryContainer .gallery{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    .contact h1{
+        font-size: 35px;
+    }
+    .contact p{
+        font-size: 14px;
+    }
+    .contact .contactForm{
+        width: 90%;
+        height: 500px;
+    }
+    .contact .contactForm .box{
+        width: 100%;
+        height: 100px;
+        float: none;
+    }
+    .contact .contactForm .box input{
+        height: 40px;
+    }
+    .contact .contactForm input{
+        height: 40px;
+    }
+    .contactForm button{
+        left: 30%;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footerInfo{
+        width: 100%;
+        height: 400px;
+    }
+    .footerInfo .box{
+        position: absolute;
+        top: 50%;
+    }
+    .footer .footerContact{
+        width: 100%;
+    }
+    .footerContact .contact{
+        width: 90%;
+    }
+}

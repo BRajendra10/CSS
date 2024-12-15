@@ -1,0 +1,103 @@
+@media (max-width: 1500px) {
+    
+}
+
+@media (max-width: 1024px){
+    .navigation{
+        height: 150px;
+    }
+    .navigation h1{
+        font-size: 40px;
+    }
+    .Resource .ResourceInfo .box{
+        width: 80%;
+    }
+    .Resources .box{
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation{
+        height: 100px;
+    }
+    .logo{
+        width: 35%;
+        height: 100px;
+        padding: 20px 0;
+    }
+    .logo h1 {
+        font-size: 25px;
+    }
+    .logo p{
+        font-size: 14px;
+    }
+    .menu{
+        width: 65%;
+    }
+    .menu ul{
+        line-height: 100px;
+    }
+    .menu ul li a{
+        font-size: 14px;
+    }
+    .Resource{
+        display: flex;
+        flex-direction: column;
+    }
+    .Resource .ResourceInfo{
+        width: 100%;
+    }
+    .Resource .ResourceInfo .box{
+        width: 80%;
+    }
+    .Resource .Resources{
+        width: 100%;
+        height: 500px;
+    }
+    .Resources .box{
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navigation{
+        height: 100px;
+    }
+    .logo{
+        width: 80%;
+        height: 100px;
+        padding: 20px 0;
+    }
+    .menu{
+        width: 20%;
+        height: 100px;
+    }
+    .menu i{
+        display: block;
+    }
+    .menu ul{
+        display: none;
+    }
+    .Resource{
+        display: flex;
+        flex-direction: column;
+    }
+    .Resource .ResourceInfo{
+        width: 100%;
+        height: 500px;
+    }
+    .Resource .ResourceInfo .box{
+        width: 90%;
+    }
+    .Resource .ResourceInfo .box h1{
+        font-size: 50px;
+    }
+    .Resource .Resources{
+        width: 100%;
+        height: 500px;
+    }
+    .Resources .box {
+        width: 80%;
+    }
+}
