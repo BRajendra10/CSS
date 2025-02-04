@@ -15,3 +15,7 @@
 <h1> min-width gallery </h1>
 
 <img src="https://github.com/BRajendra10/CSS/blob/8c5e04f695f5ec9c9b23129cab2e9f2596f20926/min-width.png">
+
+<h1>Landing Page</h1>
+
+<img src="https://github.com/BRajendra10/CSS/blob/9cadca5689318e3884f3dde69baabbf476b99787/Landing%20Page.png">
