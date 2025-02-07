@@ -6,7 +6,7 @@
 
 <h1> Hyundai Cars </h1>
 
-<img src="https://github.com/BRajendra10/CSS/blob/4268e594c26067d6d0f904730b1742236540629a/Hyundai%20Cars.png">
+<img src="[https://github.com/BRajendra10/CSS/blob/4268e594c26067d6d0f904730b1742236540629a/Hyundai%20Cars.png](https://github.com/BRajendra10/CSS/blob/b26cf4f49a5d77b4790af4548bb902f608b1c7b9/Hyundai%20Cars/Images/Hyundai%20Cars.png)">
 
 <h1>  Inner Peace </h1>
 
