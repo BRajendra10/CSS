@@ -1,4 +1,0 @@
-// Arrays
-
-let heroes = ["Iron Man","Loki","Doctor Strange"]
-console.log(heroes,heroes.length);
