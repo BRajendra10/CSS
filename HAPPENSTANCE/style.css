@@ -1,0 +1,247 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbarContainer{
+    width: 100%;
+    background-color: black;
+}
+.navbar{
+    width: 70%;
+    height: 40px;
+    margin: auto;
+}
+.navbar ul{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.menuContainer{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .logo{
+    width: 20%;
+    height: 70px;
+}
+.menu .logo img{
+    width: 100%;
+    margin: 20px 0px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.menu ul li a::after{
+    content: '';
+    display: block;
+    border: 1px solid black;
+    width: 0;
+    margin: auto;
+    margin-top: 3px;
+    transition: 0.5s;
+}
+.menu ul li a:hover::after{
+    width: 100%;
+}
+.menu .search{
+    width: 15%;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.menu .search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+::placeholder{
+    color: gray;
+    font-size: 14px;
+}
+.bannerContainer{
+    width: 100%;
+}
+.banner{
+    width: 70%;
+    height: 445px;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    position: relative;
+}
+.textContainer{
+    width: 100%;
+}
+.textContainer .text {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+.textContainer .text h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 15px 0px;
+}
+.text h3::after{
+    content: "";
+    border-top: 5px solid black;
+    width: 100%;
+}
+.galleryContainer{
+    width: 100%;
+}
+.gallery{
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.Image{
+    width: 325px;
+    height: 270px;
+    border-radius: 10px;
+}
+.Image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.viContainer{
+    width: 100%;
+}
+.vedioImages{
+    width: 70%;
+    height: 1290px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.box{
+    width: 320px;
+    height: 420px;
+    border-radius: 10px;
+    position: relative;
+}
+.box video{
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+}
+.box img{
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+}
+.box p{
+    position: absolute;
+    bottom: 0%;
+    color: gray;
+    font-size: 14px;
+}
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.button {
+    padding: 7px 13px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+.button:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+.button a,i{
+    text-decoration: none;
+    color:rgb(75, 73, 73);
+}
+.footerContainer{
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+.footer{
+    width: 70%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Fbox{
+    padding: 0 20px;
+}
+.Fbox h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.Fbox ul li{
+    list-style: none;
+}
+.Fbox ul li a{
+    text-decoration: none;
+    color: rgb(65, 64, 64);
+    font-size: 18px;
+    line-height: 30px;
+}
+.footContacts{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footContacts .logins{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.logins .lbox{
+    width: 45px;
+    height: 45px;
+}
+.logins .lbox img{
+    width: 100%;
+}
+.footContacts .texts{
+    width: 25%;
+    text-align: center;
+}
+.texts p{
+    margin-bottom: 15px;
+}
