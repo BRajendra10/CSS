@@ -2,7 +2,7 @@
 
 <h1> Happenstance </h1>
 
-<img src="https://github.com/BRajendra10/CSS/blob/1978ef66ba646fc285835cd4b06ab9bdd6ce7e1d/Happenstance.png">
+<img src="https://github.com/BRajendra10/CSS/blob/047befe5bb887e26c6142b625c2b2a947eb55b18/HAPPENSTANCE/Images/Hppenstance.png">
 
 <h1> Hyundai Cars </h1>
 
