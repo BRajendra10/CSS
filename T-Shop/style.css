@@ -1,0 +1,395 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navContainer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.navContainer .Logo{
+    width: 15%;
+    height: 80px;
+    background-color: #D6FF38;
+    border: 1px solid black;
+}
+.Logo h2{
+    text-align: center;
+}
+.Logo a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    line-height: 80px;
+}
+.navContainer .swap {
+    width: 85%;
+    display: flex;
+}
+.navContainer .swap .menu{
+    width: 80%;
+    height: 80px;
+    border: 1px solid black;
+    border-left: none;
+}
+.swap .menu ul{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.swap .menu ul li a{
+    text-decoration: none;
+    padding: 28px 50px;
+    font-size: 20px;
+    border: none;
+    color: black;
+    border-left: 1px solid black;
+}
+.menu ul li a:hover{
+    background-color: black;
+    color: #D6FF38;
+}
+.navContainer .swap .cart{
+    width: 20%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-left: none;
+}
+.swap .cart i{
+    font-size: 30px;
+}
+.swap .cart a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.swap .menu ul i{
+    font-size: 30px;
+    display: none;
+}
+.heroContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.heroContainer .img-1 p{
+    position: relative;
+    top: 80%;
+    font-size: 25px;
+    display: none;
+}
+.heroContainer .img-2 p{
+    position: relative;
+    top: 80%;
+    font-size: 25px;
+    display: none;
+}
+.heroContainer .img-3 p{
+    position: relative;
+    top: 80%;
+    font-size: 25px;
+    display: none;
+}
+.heroContainer h1{
+    font-size: 80px;
+    margin: 30px 0 10px 0;
+}
+.heroContainer mark {
+    font-size: 25px;
+    padding: 5px 50px;
+    background-color: #D6FF38;
+}
+.heroContainer .imgContainer{
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgContainer .img-1{
+    width: 25%;
+    height: 500px;
+    background-image: url('images/img1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.imgContainer .img-1:hover{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(146, 169, 43, 0.476)),url('images/img1.webp');
+}
+.imgContainer ,.img-1:hover p{
+    display: block;
+}
+.imgContainer .img-2{
+    width: 48%;
+    height: 500px;
+    background-image: url('images/img3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.imgContainer .img-2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(146, 169, 43, 0.476)),url('images/img3.jpg');
+}
+.imgContainer ,.img-2:hover p{
+    display: block;
+}
+.imgContainer .img-3{
+    width: 25%;
+    height: 500px;
+    background-image: url('images/img2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.imgContainer .img-3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(146, 169, 43, 0.476)),url('images/img2.jpg');
+}
+.imgContainer ,.img-3:hover p{
+    display: block;
+}
+.clothContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.clothContainer h1{
+    margin: 50px;
+    font-size: 50px;
+}
+.clothContainer .cloths{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cloths .box{
+    width: 420px;
+    height: 580px;
+}
+.cloths .box .cloth{
+    width: 380px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+.cloths .box .cloth img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.5s;
+}
+.cloths .box .price{
+    width: 100%;
+    margin: 10px 30px;
+    text-align: left;
+}
+.cloths .box .price p{
+    font-size: 18px;
+}
+.cloths .box .cloth:hover img{
+    transform: scale(1.1,1.1);
+}
+.clothContainer .button{
+    padding: 8px 50px;
+    font-size: 15px;
+    background-color: black;
+    color: #D6FF38;
+    transition: 0.7s;
+}
+.clothContainer .button:hover{
+    background-color: #D6FF38;
+    color: black;
+}
+.offerContainer{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+}
+.offerContainer .offer{
+    width: 60%;
+    height: 800px;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(203, 249, 1, 0.949));
+    position: relative;
+}
+.offerContainer .offer .box{
+    width: 80%;
+    height: 40%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.offer .box i{
+    font-size: 70px;
+}
+.offer .box span{
+    font-size: 20px;
+}
+.offer .box h1{
+    font-size: 130px;
+}
+.offer .box p{
+    font-size: 18px;
+}
+.offerContainer .image{
+    width: 40%;
+    height: 800px;
+    background-image: url('images/bannet.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.specialOffer{
+    width: 100%;
+    height: 150px;
+}
+.specialOffer h1{
+    text-align: center;
+    line-height: 150px;
+    font-size: 38px;
+    text-decoration: underline;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .info{
+    width: 30%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer .info h2{
+    margin: 80px 0 30px 0;
+}
+.footer .info p{
+    font-size: 18px;
+    padding: 5px 0;
+}
+.footer .links{
+    width: 70%;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .links .boxs{
+    width: 20%;
+    height: 200px;
+}
+.links .boxs ul li{
+    list-style: none;
+}
+.boxs ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.links .boxs h2{
+    margin: 10px 0;
+}
+.footer .SocialMedia{
+    width: 30%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .SocialMedia i{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.footer .copywrite{
+    width: 70%;
+    height: 100px;
+    background-color: #D6FF38;
+}
+.footer .copywrite p{
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+}
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.sidebarContainer{
+    width: 18%;
+    height: 700px;
+}
+.sidebarContainer .sidebar{
+    width: 80%;
+    height: 650px;
+    float: right;
+    padding: 20px;
+}
+.sidebarContainer h3{
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+.sidebar ul li h2{
+    padding: 20px 0;
+    margin: 10px 0;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.sidebar ul li{
+    list-style: none;
+    line-height: 28px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.sidebar ul li ul li p{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.sidebar ul li ul li input{
+    width: 20px;
+    height: 20px;
+    margin:5px 10px 5px 0;
+}
+.sidebar ul li ul li{
+    font-size: 20px;
+}
+.ClothCotnainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.ClothCotnainer h1{
+    text-align: left;
+    margin: 25px 55px;
+}
+.ClothCotnainer .Cloths{
+    width: 96%;
+}
+.Cloths .box{
+    width: 380px;
+    height: 580px;
+}
+.Cloths .box .Cloth{
+    width: 330px;
+    height: 470px;
+}
