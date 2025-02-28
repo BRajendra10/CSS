@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+    .form-container .form{
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .form-container .form{
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .form-container .form{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .form-container .form{
+        width: 90%;
+    }
+}

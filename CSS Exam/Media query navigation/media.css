@@ -1,0 +1,25 @@
+
+@media (max-width: 1200px) {
+    .nav-menu .menu{
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-menu .menu{
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu .menu{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    
+}
